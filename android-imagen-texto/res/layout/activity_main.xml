@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView android:id="@+id/LblEtiqueta" 
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/escribe_algo" 
+	    android:background="#AA44FF" 
+	    android:typeface="monospace"/>
+	    
+	<EditText android:id="@+id/TxtTexto" 
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content" 
+	    android:inputType="text"
+	    android:layout_below="@id/LblEtiqueta" />
+	    
+	<Button android:id="@+id/BtnNegrita"
+		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:layout_below="@id/TxtTexto" 
+	    android:layout_alignParentRight="true" 
+	    android:text="@string/negrita" />
+	    
+	<Button android:id="@+id/BtnSetText"
+		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:layout_below="@id/TxtTexto" 
+	    android:layout_toLeftOf="@id/BtnNegrita" 
+	    android:text="@string/settext" />
+	    
+	<ImageView android:id="@+id/ImgFoto"
+		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:src="@drawable/ic_launcher" 
+	    android:layout_below="@id/BtnNegrita" 
+	    android:layout_alignParentRight="true" 
+	    android:contentDescription="@string/imagen_ejemplo" />
+
+</RelativeLayout>

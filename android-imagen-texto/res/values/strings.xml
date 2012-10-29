@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Android Imagenes y Texto</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Imagen y Texto</string>
+    <string name="escribe_algo">Escribe algo:</string>
+    <string name="negrita">Negrita</string>
+    <string name="settext">SetText</string>
+    <string name="imagen_ejemplo">Imagen Ejemplo</string>
+
+</resources>

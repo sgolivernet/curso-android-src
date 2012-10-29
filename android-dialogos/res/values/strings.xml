@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Android Dialogos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Dialogos en Android</string>
+    <string name="dialogo_linea_1">Dialogo Linea 1</string>
+    <string name="dialogo_linea_2">Dialogo Linea 2</string>
+
+</resources>

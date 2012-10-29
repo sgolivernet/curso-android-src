@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Android ListView Optimizado</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">ListView Optimizado</string>
+    <string name="selecciona_una_opcion">Selecciona una opción:</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Android CheckBox RadioButton</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">CheckBox y RadioButton</string>
+    <string name="marcame">Márcame!</string>
+    <string name="id_opcion_seleccionada">ID opción seleccionada: (ninguna)</string>
+    <string name="opcion_1">Opción 1</string>
+    <string name="opcion_2">Opción 2</string>
+
+</resources>

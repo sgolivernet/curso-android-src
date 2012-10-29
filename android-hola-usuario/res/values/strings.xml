@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Hola Usuario</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Hola Usuario</string>
+    <string name="nombre">Escribe tu nombre:</string>
+    <string name="hola">Hola</string>
+    <string name="title_activity_saludo">Saludo</string>
+
+</resources>
