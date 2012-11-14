@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sgo="http://schemas.android.com/apk/res/net.sgoliver.android.controlpers2"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dip"  >
+
+    <net.sgoliver.android.controlpers2.ControlLogin 
+        android:id="@+id/CtlLogin" 
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="#0000AA" 
+    	sgo:login_text="Entrar" />
+
+</LinearLayout>

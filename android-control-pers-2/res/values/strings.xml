@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Control Personalizado 2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Controles Personalizados 2</string>
+    <string name="usuario">Usuario:</string>
+    <string name="contrasena">Contraseña:</string>
+    <string name="login">Login</string>
+
+</resources>
