@@ -1,0 +1,22 @@
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2"
+    android:columnCount="3" 
+    android:orientation="horizontal" >
+ 
+        <TextView android:text="Celda 1.1" />
+        <TextView android:text="Celda 1.2" />
+        <TextView android:text="Celda 1.3" />
+
+        <TextView android:text="Celda 2.1" />
+        <TextView android:text="Celda 2.2" />
+        <TextView android:text="Celda 2.3" />
+
+        <TextView android:text="Celda 3.1"
+               android:layout_columnSpan="2" />
+        
+        <TextView android:text="Celda 3.2" />
+
+</GridLayout>
