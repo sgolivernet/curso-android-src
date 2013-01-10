@@ -13,6 +13,7 @@ public class MainActivity extends Activity {
 	
 	private TextView lblMensaje;
 	private Button btnBoton1;
+	private Button btnBoton5;
 	private ToggleButton btnBoton2;
 	private ImageButton btnBoton3;
 	private ToggleButton btnBoton4;
@@ -31,6 +32,15 @@ public class MainActivity extends Activity {
 			public void onClick(View arg0)
 			{
 				lblMensaje.setText("Botón 1 pulsado!");
+			}
+		});
+        
+        btnBoton5 = (Button)findViewById(R.id.BtnBoton5);
+        
+        btnBoton5.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View arg0)
+			{
+				lblMensaje.setText("Botón 5 pulsado!");
 			}
 		});
         

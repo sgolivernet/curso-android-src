@@ -1,9 +1,11 @@
 <resources>
 
     <string name="app_name">Android Botones</string>
-    <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">Botones</string>
     <string name="pulsame">Púlsame</string>
+    <string name="icono_ok">Icono OK</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
 
 </resources>

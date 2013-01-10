@@ -12,22 +12,28 @@
 		android:text="@string/pulsame"  
 		android:layout_width="wrap_content" 
 		android:layout_height="wrap_content" />
+	
+	<Button android:id="@+id/BtnBoton5" 
+		android:text="@string/pulsame"  
+		android:drawableLeft="@drawable/ok"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" />
 		
 	<ToggleButton android:id="@+id/BtnBoton2" 
-		android:textOn="ON"
-		android:textOff="OFF"  
+		android:textOn="@string/on"
+		android:textOff="@string/off"  
 		android:layout_width="wrap_content" 
 		android:layout_height="wrap_content" />
 		
 	<ImageButton android:id="@+id/BtnBoton3" 
 		android:layout_width="wrap_content" 
 		android:layout_height="wrap_content" 
-		android:contentDescription="Icono Ok"
+		android:contentDescription="@string/icono_ok"
 		android:src="@drawable/ok" />
 		
 	<ToggleButton android:id="@+id/BtnBoton4" 
-		android:textOn="ON"
-		android:textOff="OFF"  
+		android:textOn="@string/on"
+		android:textOff="@string/off"  
 		android:padding="10dip"
 		android:layout_width="wrap_content" 
 		android:layout_height="wrap_content" 
