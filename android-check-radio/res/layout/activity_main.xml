@@ -7,7 +7,8 @@
     <CheckBox android:id="@+id/ChkMarcame" 
 		android:layout_width="wrap_content" 
 		android:layout_height="wrap_content"  
-		android:text="@string/marcame" />
+		android:text="@string/marcame" 
+		android:checked="false" />
 		
 	<TextView android:id="@+id/LblSeleccion"  
 		android:layout_width="wrap_content" 
@@ -16,8 +17,8 @@
 		
 	<RadioGroup android:id="@+id/gruporb"
 		android:orientation="vertical"
-		android:layout_width="fill_parent"
-		android:layout_height="fill_parent" >
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" >
 
 		<RadioButton android:id="@+id/radio1"
 			android:layout_width="wrap_content"
