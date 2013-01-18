@@ -6,11 +6,16 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.AdapterView.OnItemClickListener;
 
 public class MainActivity extends Activity {
+	
+	private TextView lblEtiqueta;
+	private ListView lstOpciones;
 	
 	private Titular[] datos = new Titular[25];
 
@@ -25,9 +30,26 @@ public class MainActivity extends Activity {
         AdaptadorTitulares adaptador = 
         	new AdaptadorTitulares(this);
         
-        ListView lstOpciones = (ListView)findViewById(R.id.LstOpciones);
+        lblEtiqueta = (TextView)findViewById(R.id.LblEtiqueta);
+        lstOpciones = (ListView)findViewById(R.id.LstOpciones);
         
         lstOpciones.setAdapter(adaptador);
+        
+        lstOpciones.setOnItemClickListener(new OnItemClickListener() {
+            public void onItemClick(AdapterView<?> a, View v, int position, long id) {
+            	
+            	//Alternativa 1:
+            	String opcionSeleccionada = 
+            			((Titular)a.getAdapter().getItem(position)).getTitulo();
+            	
+            	//Alternativa 2:
+            	//String opcionSeleccionada = 
+            	//		((TextView)v.findViewById(R.id.LblTitulo))
+            	//			.getText().toString();
+            	
+            	lblEtiqueta.setText("Opción seleccionada: " + opcionSeleccionada);
+            }
+        });
     }
 
     @Override

@@ -27,18 +27,13 @@ public class MainActivity extends Activity {
         	new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, datos);
         
         lblMensaje = (TextView)findViewById(R.id.LblMensaje);
-        
         grdOpciones = (GridView)findViewById(R.id.GridOpciones);
         
-        grdOpciones.setOnItemSelectedListener(
-            	new AdapterView.OnItemSelectedListener() {
-        		public void onItemSelected(AdapterView<?> parent,
+        grdOpciones.setOnItemClickListener(
+            	new AdapterView.OnItemClickListener() {
+        		public void onItemClick(AdapterView<?> parent,
         			android.view.View v, int position, long id) {
-           				lblMensaje.setText("Seleccionado: " + datos[position]);
-        		}
-
-        		public void onNothingSelected(AdapterView<?> parent) {
-        			lblMensaje.setText("");
+           				lblMensaje.setText("Opción seleccionada: " + datos[position]);
         		}
         });
         

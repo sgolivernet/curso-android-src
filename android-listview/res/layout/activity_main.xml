@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
     
-	<TextView  
+	<TextView  android:id="@+id/LblEtiqueta"
 	    android:layout_width="match_parent" 
 	    android:layout_height="wrap_content" 
 	    android:text="@string/selecciona_una_opcion" />
