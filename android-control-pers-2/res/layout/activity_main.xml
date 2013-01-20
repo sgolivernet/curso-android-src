@@ -9,7 +9,6 @@
         android:id="@+id/CtlLogin" 
     	android:layout_width="match_parent"
     	android:layout_height="wrap_content"
-    	android:background="#0000AA" 
     	sgo:login_text="Entrar" />
 
 </LinearLayout>

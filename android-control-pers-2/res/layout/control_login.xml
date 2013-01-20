@@ -10,8 +10,7 @@
 		android:layout_width="wrap_content" 
 		android:layout_height="wrap_content" 
 		android:text="@string/usuario" 
-		android:textStyle="bold"
-		android:textColor="#FFFFFF" />
+		android:textStyle="bold" />
 		
 	<EditText android:id="@+id/TxtUsuario"
 		android:layout_height="wrap_content" 
@@ -22,8 +21,7 @@
 		android:layout_width="wrap_content" 
 		android:layout_height="wrap_content" 
 		android:text="@string/contrasena" 
-		android:textStyle="bold" 
-		android:textColor="#FFFFFF" />
+		android:textStyle="bold" />
 		
 	<EditText android:id="@+id/TxtPassword"
 		android:layout_height="wrap_content" 
@@ -46,8 +44,7 @@
 			android:layout_width="wrap_content" 
 			android:layout_height="wrap_content" 
 			android:paddingLeft="10dip" 
-			android:textStyle="bold" 
-			android:textColor="#FFFFFF" />
+			android:textStyle="bold" />
 			
 	</LinearLayout>
 	
