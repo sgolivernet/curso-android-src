@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
         
         TabHost.TabSpec spec=tabs.newTabSpec("mitab1");
         spec.setContent(R.id.tab1);
-        spec.setIndicator("", 
+        spec.setIndicator("TAB1", 
         		res.getDrawable(android.R.drawable.ic_btn_speak_now));
         tabs.addTab(spec);
         
