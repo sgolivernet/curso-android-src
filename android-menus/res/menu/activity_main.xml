@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:id="@+id/MnuOpc1" android:title="Opcion1" 
+	      android:icon="@android:drawable/ic_menu_preferences"></item>
+	<item android:id="@+id/MnuOpc2" android:title="Opcion2" 
+	      android:icon="@android:drawable/ic_menu_compass"></item>
+	<item android:id="@+id/MnuOpc3" android:title="Opcion3" 
+	      android:icon="@android:drawable/ic_menu_agenda">
+		<menu>
+			<item android:id="@+id/SubMnuOpc1"
+				  android:title="Opcion 3.1" />
+			<item android:id="@+id/SubMnuOpc2"
+				  android:title="Opcion 3.2" />
+		</menu>
+	</item>
+</menu>
