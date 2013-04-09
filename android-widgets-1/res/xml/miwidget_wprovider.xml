@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/miwidget"
+    android:minWidth="110dip"
+    android:minHeight="40dip"
+    android:label="@string/mi_primer_widget"
+    android:updatePeriodMillis="3600000"
+/>

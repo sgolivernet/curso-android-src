@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.sgoliver.android.widgets"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="net.sgoliver.android.widgets.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".WidgetConfig">
+		    <intent-filter>
+		        <action android:name="android.apwidget.action.APPWIDGET_CONFIGURE"/>
+		    </intent-filter>
+		</activity>
+        
+        <receiver android:name=".MiWidget" android:label="Mi Primer Widget">
+	        <intent-filter>
+	           <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+	        </intent-filter>
+	        <intent-filter>
+			    <action android:name="net.sgoliver.android.widgets.ACTUALIZAR_WIDGET"/>
+			</intent-filter>
+	        <meta-data
+	           android:name="android.appwidget.provider"
+	           android:resource="@xml/miwidget_wprovider" />
+    	</receiver>
+    </application>
+
+</manifest>

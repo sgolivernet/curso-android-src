@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Widgets Android</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="mi_primer_widget">Mi Primer Widget</string>
+    <string name="mensaje_personalizado">Mensaje personalizado:</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="actualizar">Actualizar</string>
+
+</resources>
