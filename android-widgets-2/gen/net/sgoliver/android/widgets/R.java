@@ -14,13 +14,14 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int BtnAceptar=0x7f080004;
-        public static final int BtnActualizar=0x7f080002;
-        public static final int BtnCancelar=0x7f080005;
-        public static final int LblHora=0x7f080001;
-        public static final int LblMensaje=0x7f080000;
-        public static final int TxtMensaje=0x7f080003;
-        public static final int menu_settings=0x7f080006;
+        public static final int BtnAceptar=0x7f080005;
+        public static final int BtnActualizar=0x7f080003;
+        public static final int BtnCancelar=0x7f080006;
+        public static final int FrmWidget=0x7f080000;
+        public static final int LblHora=0x7f080002;
+        public static final int LblMensaje=0x7f080001;
+        public static final int TxtMensaje=0x7f080004;
+        public static final int menu_settings=0x7f080007;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;

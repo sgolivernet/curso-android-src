@@ -6,7 +6,7 @@
     android:padding="10dp" 
     android:layout_margin="5dp" >
 
-    	<LinearLayout
+    	<LinearLayout android:id="@+id/FrmWidget"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#FFFFFF"

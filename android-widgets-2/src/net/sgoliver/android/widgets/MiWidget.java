@@ -3,6 +3,7 @@ package net.sgoliver.android.widgets;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
+import android.app.Application;
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
@@ -92,6 +93,13 @@ public class MiWidget extends AppWidgetProvider {
 					intent, PendingIntent.FLAG_UPDATE_CURRENT);
 		
 		controles.setOnClickPendingIntent(R.id.BtnActualizar, pendingIntent);
+		
+		Intent intent2 = new Intent(context, MainActivity.class);
+		PendingIntent pendingIntent2 = 
+				PendingIntent.getActivity(context, widgetId, 
+						intent2, PendingIntent.FLAG_UPDATE_CURRENT);
+		
+		controles.setOnClickPendingIntent(R.id.FrmWidget, pendingIntent2);
 		
 		//Actualizamos el mensaje en el control del widget
 		controles.setTextViewText(R.id.LblMensaje, mensaje);
