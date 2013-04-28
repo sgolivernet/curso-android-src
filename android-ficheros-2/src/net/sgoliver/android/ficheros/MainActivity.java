@@ -108,8 +108,6 @@ public class MainActivity extends Activity {
 		});
         
         btnEscribirSD.setOnClickListener(new OnClickListener() {
-			
-			@Override
 			public void onClick(View arg0) 
 			{	
 				boolean sdDisponible = false;
@@ -139,9 +137,10 @@ public class MainActivity extends Activity {
 				{
 					try
 					{
-						File ruta_sd = Environment.getExternalStorageDirectory();
+						File ruta_sd_global = Environment.getExternalStorageDirectory();
+						//File ruta_sd_app_musica = getExternalFilesDir(Environment.DIRECTORY_MUSIC);
 						
-						File f = new File(ruta_sd.getAbsolutePath(), "prueba_sd.txt");
+						File f = new File(ruta_sd_global.getAbsolutePath(), "prueba_sd.txt");
 						
 						OutputStreamWriter fout = 
 							new OutputStreamWriter(
@@ -161,15 +160,13 @@ public class MainActivity extends Activity {
 		});
         
         btnLeerSD.setOnClickListener(new OnClickListener() {
-			
-			@Override
 			public void onClick(View arg0) 
 			{	
 				try
 				{
-					File ruta_sd = Environment.getExternalStorageDirectory();
+					File ruta_sd_global = Environment.getExternalStorageDirectory();
 					
-					File f = new File(ruta_sd.getAbsolutePath(), "prueba_sd.txt");
+					File f = new File(ruta_sd_global.getAbsolutePath(), "prueba_sd.txt");
 					
 					BufferedReader fin =
 						new BufferedReader(
