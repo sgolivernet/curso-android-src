@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Ficheros</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="escribir_mem">Escribir Mem</string>
+    <string name="leer_mem">Leer Mem</string>
+    <string name="leer_raw">Leer Raw</string>
+
+</resources>
