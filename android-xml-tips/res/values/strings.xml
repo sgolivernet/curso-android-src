@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android XML</string>
+    <string name="action_settings">Leer Xml desde recurso Xml</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="escribir_xml">Escribir XML</string>
+    <string name="escribir_xml_con_xmlpull">Escribir XML con XmlPull</string>
+    <string name="leer_xml_desde_memoria">Leer Xml desde Memoria</string>
+    <string name="leer_xml_desde_recurso_raw">Leer Xml desde recurso Raw</string>
+    <string name="leer_xml_desde_assets">Leer Xml desde Assets</string>
+
+</resources>
