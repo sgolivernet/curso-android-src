@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Toast Android</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="toast_por_defecto">Toast - Por Defecto</string>
+    <string name="toast_gravity">Toast - Gravity</string>
+    <string name="toast_personalizado">Toast - Personalizado</string>
+
+</resources>
