@@ -13,13 +13,31 @@ public class DialogoSeleccion extends DialogFragment {
 
 		final String[] items = {"Español", "Inglés", "Francés"};
 		
-        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        AlertDialog.Builder builder = 
+        		new AlertDialog.Builder(getActivity());
+        
         builder.setTitle("Selección")
-               .setItems(items, new DialogInterface.OnClickListener() {
-		    	    public void onClick(DialogInterface dialog, int item) {
-		    	        Log.i("Dialogos", "Opción elegida: " + items[item]);
-		    	    }
-		    	});
+        .setItems(items, new DialogInterface.OnClickListener() {
+	    	    public void onClick(DialogInterface dialog, int item) {
+	    	        Log.i("Dialogos", "Opción elegida: " + items[item]);
+	    	    }
+	    	});
+        
+//        builder.setTitle("Selección")
+//        .setMultiChoiceItems(items, null, 
+//        		new DialogInterface.OnMultiChoiceClickListener() {
+//        	public void onClick(DialogInterface dialog, int item, boolean isChecked) {
+//                Log.i("Dialogos", "Opción elegida: " + items[item]);
+//            }
+//	    });
+        
+//        builder.setTitle("Selección")
+//           .setSingleChoiceItems(items, -1, 
+//        		   new DialogInterface.OnClickListener() {
+//	    	    public void onClick(DialogInterface dialog, int item) {
+//	    	        Log.i("Dialogos", "Opción elegida: " + items[item]);
+//	    	    }
+//	    	});
 
         return builder.create();
     }
