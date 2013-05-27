@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android WS SOAP</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Telefono</string>
+    <string name="consultar">Consultar</string>
+    <string name="enviar">Enviar</string>
+    <string name="enviar2">Enviar2</string>
+
+</resources>
