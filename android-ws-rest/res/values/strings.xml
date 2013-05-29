@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android WS REST</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="idcliente">IdCliente</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Telefono</string>
+    <string name="ins">Ins</string>
+    <string name="act">Act</string>
+    <string name="obt">Obt</string>
+    <string name="lis">Lis</string>
+
+</resources>
