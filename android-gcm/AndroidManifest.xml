@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.sgoliver.android.gcm"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    
+    <permission 
+        android:name="net.sgoliver.android.gcm.permission.C2D_MESSAGE" 
+        android:protectionLevel="signature" />
+    
+	<uses-permission android:name="net.sgoliver.android.gcm.permission.C2D_MESSAGE" />
+	<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="net.sgoliver.android.gcm.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <receiver android:name="com.google.android.gcm.GCMBroadcastReceiver"
+	        android:permission="com.google.android.c2dm.permission.SEND" >
+	        <intent-filter>
+	            <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+	            <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+	            <category android:name="net.sgoliver.android.gcm" />
+	        </intent-filter>
+	    </receiver>
+ 
+    	<service android:name=".GCMIntentService" />
+        
+    </application>
+
+</manifest>
