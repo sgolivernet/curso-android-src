@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hilos y AsyncTask</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="nuevo_hilo">Ejecutar Hilo</string>
+    <string name="nuevo_asynctask">Ejecutar AsyncTask</string>
+    <string name="progreso">Progreso Tarea</string>
+    <string name="sin_hilos">Ejecución Sin Hilos</string>
+    <string name="asynctask_dialog">AsyncTask + ProgressDialog</string>
+    <string name="cancelar">Cancelar</string>
+    
+</resources>
