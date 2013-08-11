@@ -35,4 +35,6 @@ Desktop.ini
 ############
 
 obj/
+*.user
+*.suo
 
