@@ -38,3 +38,6 @@ obj/
 *.user
 *.suo
 
+#Google Play Services Project
+google-play-services_lib/
+
