@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Google+ SignIn Test</string>
+    <string name="action_sign_out">Cerrar Sesión</string>
+    <string name="action_revoke">Desconectar App</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

@@ -67,12 +67,12 @@ public class MainActivity extends android.support.v4.app.FragmentActivity {
 			public void onCameraChange(CameraPosition position) {
 				Toast.makeText(
 						MainActivity.this, 
-						"Cambio C·mara\n" + 
+						"Cambio C√°mara\n" + 
 						"Lat: " + position.target.latitude + "\n" +
 						"Lng: " + position.target.longitude + "\n" +
 						"Zoom: " + position.zoom + "\n" +
-						"OrientaciÛn: " + position.bearing + "\n" +
-						"¡ngulo: " + position.tilt,
+						"Orientaci√≥n: " + position.bearing + "\n" +
+						"√Ångulo: " + position.tilt,
 						Toast.LENGTH_SHORT).show();
 			}
 		});
@@ -115,7 +115,7 @@ public class MainActivity extends android.support.v4.app.FragmentActivity {
 	{
 		mapa.addMarker(new MarkerOptions()
         .position(new LatLng(lat, lng))
-        .title("Pais: EspaÒa"));
+        .title("Pais: Espa√±a"));
 	}
 	
 	private void mostrarLineas()
@@ -134,7 +134,7 @@ public class MainActivity extends android.support.v4.app.FragmentActivity {
 
 		mapa.addPolyline(lineas);
 		
-		//Dibujo con polÌgonos
+		//Dibujo con polÔøΩgonos
 		
 		//PolygonOptions rectangulo = new PolygonOptions()
 		//              .add(new LatLng(45.0, -12.0),

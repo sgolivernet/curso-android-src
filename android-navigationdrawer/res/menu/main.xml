@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:sgoliver="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        sgoliver:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        sgoliver:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/action_search"/>
+</menu>
